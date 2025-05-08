@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Video Page</title>
+    <title>Video Page</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        video {
+            border-radius: 8px;
+        }
+    </style>
 </head>
 <body>
-    <h1>My Video</h1>
-    <video width="720" height="480" controls>
+    <video width="450" height="800" controls>
         <source src="video.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
